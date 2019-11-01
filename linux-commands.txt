@@ -1,0 +1,76 @@
+
+-----------------------------------
+Task 1
+-----------------------------------
+
+1 ls
+2 pwd
+3 mkdir wrkspace && cd workspace
+4 ls
+5 touch README.md
+
+-----------------------------------
+Task 2
+-----------------------------------
+
+1 touch exercise.md && mv exercise.md /tmp
+2 rm ~/tmp/exersice.md
+
+------------------------------------------
+Task 3
+------------------------------------------
+
+1 touch umuzi.md recruit.md cohort.md
+2 pico umuzi.md recruit.md cohort.md
+3 cat umuzi.md recruits.md cohorts.md ------- read multiple at once
+4 cat umuzi.md recruits.md cohorts.md > cat > summary.md
+5 echo "The End" >> summary.md
+
+
+cat ---- read file
+
+pico ----- edit file
+
+cat umuzi.md recruits.md cohorts.md ------- read multiple at once
+
+cat umuzi.md recruits.md cohorts.md > cat > summary.md-------- combined to new file
+
+echo "The End" >> summary.md - Append the words to end of the file
+
+locate umuzi ---------- Write a script to help you locate a file named umuzi
+
+locate umuzi >> cat > search_result.md ---------- search and write results to new filel
+
+----------------------------------------------------------------------------------------
+Task 4
+----------------------------------------------------------------------------------------
+
+1 locate umuzi
+2 locate umuzi >> cat > search_result.md
+
+----------------------------------------
+Task 5
+----------------------------------------
+1 touch pad.md
+2 cd ../Desktop && mkdir work
+3 cd work/
+     cp /home/mdu/Documents/pad.md  pad_copy.md 
+4  cd ../Documents
+5 locate updatedb
+6 sudo locate pad_copy
+
+-------------------------------------------------
+Task 6
+-------------------------------------------------
+1 sudo find -iname '*.pdf'
+2 sudo find -iname '*.pdf' | tee | touch text.txt
+3 find . -mtime -1 -print
+
+
+-------------------------------------------------
+Task 7
+-------------------------------------------------
+1 nano my_bio.md
+2 Ctrl X,
+3 sudo mv my_bio.md /my_files
+
